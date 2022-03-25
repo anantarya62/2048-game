@@ -27,7 +27,7 @@ async function handleInput(e) {
         return;
       }
       await moveDown();
-      break;
+      break; 
     case "ArrowLeft":
       if (!canMoveLeft()) {
         setupInput();
